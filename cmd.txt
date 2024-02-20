@@ -57,3 +57,13 @@ isatty, ttyname, ttyslot, ioctl: Gestion des périphériques de terminal.
 getenv: Obtient la valeur d'une variable d'environnement.
 
 tcsetattr, tcgetattr: Modifie ou obtient les paramètres d'un terminal.
+
+tgetflag: Renvoie une valeur booléenne indiquant si le terminal possède une capacité particulière, comme la capacité de supporter les couleurs.
+
+tgetnum: Renvoie une valeur numérique associée à une capacité spécifique du terminal, comme le nombre de lignes ou de colonnes du terminal.
+
+tgetstr: Récupère une séquence d'échappement associée à une capacité spécifique du terminal. Ces séquences sont utilisées pour effectuer des opérations comme déplacer le curseur, changer la couleur du texte, effacer l'écran, etc.
+
+tgoto: Utilisée pour remplacer les paramètres dans une séquence d'échappement. Par exemple, si vous avez une séquence qui déplace le curseur à une certaine position, tgoto remplacera les paramètres de position par les valeurs fournies.
+
+tputs: Utilisée pour envoyer une séquence d'échappement vers le terminal. Elle prend en charge les séquences de contrôle qui contrôlent divers aspects du terminal, telles que la couleur du texte, le déplacement du curseur,
