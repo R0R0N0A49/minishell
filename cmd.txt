@@ -1,0 +1,59 @@
+readline: Fonction utilisée pour lire une ligne depuis l'entrée standard.
+
+rl_clear_history: Efface l'historique des commandes précédemment saisies dans le shell utilisant la bibliothèque readline.
+
+rl_on_new_line: Signale à readline qu'une nouvelle ligne commence.
+
+rl_replace_line: Remplace le contenu de la ligne actuelle par une nouvelle chaîne.
+
+rl_redisplay: Affiche à nouveau la ligne actuelle avec les modifications apportées par l'utilisateur.
+
+add_history: Ajoute une ligne à l'historique des commandes.
+
+printf: Fonction de bibliothèque standard en C pour afficher du texte formaté sur la sortie standard.
+
+malloc: Alloue de la mémoire dynamiquement.
+
+free: Libère la mémoire allouée dynamiquement.
+
+write: Écrit des données dans un descripteur de fichier.
+
+access: Vérifie les droits d'accès à un fichier.
+
+open: Ouvre un fichier ou un périphérique.
+
+read: Lit des données depuis un descripteur de fichier.
+
+close: Ferme un descripteur de fichier.
+
+fork: Crée un nouveau processus en dupliquant le processus appelant.
+
+wait, waitpid, wait3, wait4: Attendent la fin d'un processus enfant.
+
+signal, sigaction, sigemptyset, sigaddset, kill: Gestion des signaux.
+
+exit: Termine le processus en cours.
+
+getcwd: Obtient le répertoire de travail actuel.
+
+chdir: Change le répertoire de travail actuel.
+
+stat, lstat, fstat: Obtient des informations sur un fichier.
+
+unlink: Supprime un fichier.
+
+execve: Exécute un programme.
+
+dup, dup2: Duplique un descripteur de fichier.
+
+pipe: Crée un tube pour la communication inter-processus.
+
+opendir, readdir, closedir: Manipulation des répertoires.
+
+strerror, perror: Gestion des erreurs.
+
+isatty, ttyname, ttyslot, ioctl: Gestion des périphériques de terminal.
+
+getenv: Obtient la valeur d'une variable d'environnement.
+
+tcsetattr, tcgetattr: Modifie ou obtient les paramètres d'un terminal.
